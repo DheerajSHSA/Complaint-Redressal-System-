@@ -1,0 +1,9 @@
+router-outlet{
+    flex-grow: 1;
+}
+
+app-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
