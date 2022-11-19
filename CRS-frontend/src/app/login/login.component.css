@@ -1,0 +1,24 @@
+.title {
+    padding-top: 1%;
+    font-family: 'Courier';
+}
+
+.padding-top {
+    padding-top: 2%;
+}
+
+.margin-top-s {
+    margin-top: 1%;
+}
+
+.center {
+    text-align: center;
+}
+
+.fonta {
+    font-family: 'Courier';    
+}
+
+.fontb {
+    font-family: 'Copperplate';
+}
