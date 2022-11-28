@@ -1,31 +1,29 @@
 <div class="container center fonta">
     <div class="container padding-top">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/125px-ABC-2021-LOGO.svg.png" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/125px-ABC-2021-LOGO.svg.png"
+            alt="">
         <h1 class="title">Complaint Redressal System</h1>
     </div>
     <form class="padding-top">
         <!-- Username input -->
         <div class="formal">
             <div class="col-auto">
-                <span id="passwordHelpInline" class="form-text">
-                    Username
-                </span>
+                Username
             </div>
             <div class="input">
-                <input type="text">
+                <input type="text" name="username" [(ngModel)]="username">
             </div>
 
             <!-- Password input -->
             <div class="col-auto">
-                <span id="passwordHelpInline" class="form-text">
-                    Password
-                </span>
+                Password
             </div>
             <div class="input">
-                <input type="password">
+                <input type="password" name="password" [(ngModel)]="password">
             </div>
             <!-- Submit button -->
-            <button type="button" class="margin-top-s btn btn-secondary btn-block btn-sm">LOGIN</button>
+            <button type="button" (click)="log()" class="margin-top-s btn btn-secondary btn-block btn-sm">LOGIN</button>
         </div>
     </form>
+    <a class="fontb" routerLink="">Create an Account</a>
 </div>
