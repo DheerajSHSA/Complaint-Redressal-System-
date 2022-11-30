@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 @NgModule({
@@ -13,12 +15,14 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

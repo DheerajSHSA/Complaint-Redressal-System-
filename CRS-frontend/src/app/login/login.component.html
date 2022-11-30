@@ -5,7 +5,6 @@
         <h1 class="title">Complaint Redressal System</h1>
     </div>
     <form class="padding-top">
-        <!-- Username input -->
         <div class="formal">
             <div class="col-auto">
                 Username
@@ -13,17 +12,14 @@
             <div class="input">
                 <input type="text" name="username" [(ngModel)]="username">
             </div>
-
-            <!-- Password input -->
             <div class="col-auto">
                 Password
             </div>
             <div class="input">
                 <input type="password" name="password" [(ngModel)]="password">
             </div>
-            <!-- Submit button -->
             <button type="button" (click)="log()" class="margin-top-s btn btn-secondary btn-block btn-sm">LOGIN</button>
         </div>
     </form>
-    <a class="fontb" routerLink="">Create an Account</a>
+    <a class="fontb" routerLink="signup">Create an Account</a>
 </div>

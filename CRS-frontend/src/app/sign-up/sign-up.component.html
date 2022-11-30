@@ -1,0 +1,42 @@
+<div class="container center fonta">
+    <div class="container padding-top">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/125px-ABC-2021-LOGO.svg.png"
+            alt="">
+        <h1 class="title"></h1>
+    </div>
+    <form class="padding-top">
+        <div class="formal">
+            <div class="col-auto">
+                First Name
+            </div>
+            <div class="">
+                <input type="text" name="fname" [(ngModel)]="fname">
+            </div>
+            <div class="col-auto">
+                Last Name
+            </div>
+            <div class="">
+                <input type="text" name="lname" [(ngModel)]="lname">
+            </div>
+            <div class="col-auto">
+                Username
+            </div>
+            <div class="">
+                <input type="text" name="username" [(ngModel)]="username">
+            </div>
+            <div class="col-auto">
+                Password
+            </div>
+            <div class="">
+                <input type="password" name="password" [(ngModel)]="password">
+            </div>
+            <div class="col-auto">
+                Location
+            </div>
+            <div class="">
+                <input type="text" name="location" [(ngModel)]="location">
+            </div>
+            <button type="button"  class="margin-top-s btn btn-secondary btn-block btn-sm" (click)="signUp()">SIGN UP</button>
+        </div>
+    </form>
+</div>

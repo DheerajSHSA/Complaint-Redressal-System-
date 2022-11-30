@@ -1,3 +1,4 @@
+import { computeMsgId } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../services/login.service';
 
@@ -15,6 +16,5 @@ export class LoginComponent implements OnInit {
   }
 
   log() {
-    this.loginService.login(this.username, this.password);
   }
 }
